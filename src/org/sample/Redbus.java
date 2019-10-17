@@ -15,7 +15,9 @@ public class Redbus
 		WebElement txtFrom=driver.findElement(By.id("src"));
 		txtFrom.sendKeys("Chennai");
 		WebElement txtTo=driver.findElement(By.id("dest"));
-		txtTo.sendKeys("Coimbatore");		
+		txtTo.sendKeys("Coimbatore");
+		System.out.println("Hi");
+		
 		
 	}
 
